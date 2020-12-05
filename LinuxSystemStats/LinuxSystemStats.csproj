@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A static library to fetch cpu and memory usage information for linux machines</Description>
+    <Copyright>Daniel Baynton 2020</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>MIT.txt</PackageLicenseFile>
+    <Authors>Daniel Baynton</Authors>
+    <Product />
+    <Company />
+    <RepositoryUrl>https://github.com/230Daniel/LinuxSystemStats</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/230Daniel/LinuxSystemStats</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\Licenses\MIT.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
